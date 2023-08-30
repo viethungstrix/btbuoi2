@@ -35,7 +35,6 @@ namespace Buoi2
             tensv = "Pham Diep Quang Tu";
             tenlop = "12DHTH15";
             ngaysinh = "14/08/2002";
-            
         }
         public void diChoi()
         {
@@ -44,6 +43,10 @@ namespace Buoi2
         public void diHoc() 
         {
             Console.WriteLine(tensv + " hoc lap trinh web");
+        }
+        public void diAn()
+        {
+            Console.WriteLine(tensv + " di an choi tai dau do");
         }
     }
 }

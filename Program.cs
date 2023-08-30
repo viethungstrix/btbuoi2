@@ -13,6 +13,7 @@ namespace Buoi2
             SinhVien sv = new SinhVien();
             sv.diChoi();
             sv.diHoc();
+            sv.diAn();
             Console.ReadKey();
         }
     }
